@@ -1,0 +1,29 @@
+.posts {
+  width: 90%;
+  max-width: 60rem;
+  margin: var(--size-8) auto;
+}
+
+.saying {
+  font-family: 'HANYIKONGSHAN', sans-serif;
+  padding: var(--size-2) 0 var(--size-1);
+  font-size: var(--size-6);
+  color: var(--color-grey);
+  opacity: 0.75;
+  text-align: center;
+  font-style: italic;
+}
+
+.writer {
+  width: 80%;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .saying {
+    font-size: var(--size-6);
+  }
+  .writer {
+    width: 75%;
+  }
+}

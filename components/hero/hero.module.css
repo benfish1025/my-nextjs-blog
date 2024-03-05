@@ -1,0 +1,20 @@
+.hero {
+  text-align: left;
+  background-color: var(--bg-color-orange);
+  padding: var(--size-8) 0;
+  min-height: 65vh;
+}
+
+.hero h1 {
+  font-size: var(--size-8);
+  margin: var(--size-4) 0;
+  color: var(--color-grey-300);
+}
+
+.hero p {
+  font-size: var(--size-4);
+  color: var(--color-grey-200);
+  width: 90%;
+  max-width: 40rem;
+  margin: auto;
+}

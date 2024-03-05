@@ -1,0 +1,13 @@
+.logo {
+  font-size: var(--size-4);
+  color: white;
+  width: var(--size-32);
+}
+
+
+@media (min-width: 768px) {
+  color: white;
+  .logo {
+    font-size: var(--size-5);
+  }
+}
