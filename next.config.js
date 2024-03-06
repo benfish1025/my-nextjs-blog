@@ -8,7 +8,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  distDir: 'dist',
   webpack: config => {
     config.resolve.fallback = {
       fs: false,
