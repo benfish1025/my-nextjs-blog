@@ -41,4 +41,12 @@ export function getStaticPaths() {
   };
 }
 
+export function generateStaticParams() {
+  const postFilenames = getPostsFiles();
+  const slugs = postFilenames.map((fileName) => fileName.replace(/\.md$/, ''));
+  return slugs.map((slug) => ({
+    slug,
+  }))
+}
+
 export default PostDetailPage;
