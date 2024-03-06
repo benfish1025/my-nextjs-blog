@@ -4,9 +4,11 @@ module.exports = {
   output: "export",
   reactStrictMode: true,
   assetPrefix: 'https://benfish1025.github.io/my-nextjs-blog/',
+  basePath: "/my-nextjs-blog",
   images: {
     unoptimized: true,
   },
+  distDir: 'dist',
   webpack: config => {
     config.resolve.fallback = {
       fs: false,
