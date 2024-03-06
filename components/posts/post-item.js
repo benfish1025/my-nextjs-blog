@@ -12,7 +12,7 @@ function PostItem(props) {
     year: 'numeric',
   });
 
-  const imagePath = `/images/posts/${slug}/${image}`;
+  const imagePath = `/my-nextjs-blog/images/posts/${slug}/${image}`;
   const linkPath = `/posts/${slug}`;
 
   return (

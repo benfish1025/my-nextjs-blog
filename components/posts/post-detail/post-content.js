@@ -14,7 +14,7 @@ SyntaxHighlighter.registerLanguage('css', css);
 function PostContent(props) {
   const { post } = props;
 
-  const imagePath = `/images/posts/${post.slug}/${post.image}`;
+  const imagePath = `/my-nextjs-blog/images/posts/${post.slug}/${post.image}`;
 
   const customRenderers = {
     // image(image) {
@@ -36,7 +36,7 @@ function PostContent(props) {
         return (
           <div className={classes.image}>
             <Image
-              src={`/images/posts/${post.slug}/${image.url}`}
+              src={`/my-nextjs-blog/images/posts/${post.slug}/${image.url}`}
               alt={image.alt}
               width={600}
               height={300}
