@@ -6,7 +6,7 @@ function AllPosts(props) {
       <section className={classes.posts}>
         <figure className={classes.saying}>
           <p>嗟尔君子，勿恒安息；敬恭而位，好是正直。</p>
-          <p className={classes.writer}>——《荀子》</p>
+          <p className={classes.writer}>——《诗经·小雅》</p>
         </figure>
         <PostsGrid posts={props.posts}/>
       </section>
